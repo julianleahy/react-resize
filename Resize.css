@@ -1,0 +1,10 @@
+.ResizeDisplay {
+  position: fixed;
+  top:0;
+  left:50%;
+  transform: translateX(-50%);
+  color: #fff;
+  background-color: rgba(0, 0, 0, .7);
+  padding: 5px;
+  z-index: 9999;
+}

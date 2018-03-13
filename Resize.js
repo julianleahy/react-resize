@@ -4,10 +4,15 @@ import './Resize.css'
 
 class Resize extends Component {
 
+  state = {
+    width : 0,
+    height : 0
+  }
+
   render() {
     return(
-      <div>
-        
+      <div className='ResizeDisplay'>
+        {this.state.width} : {this.state.height}
       </div>
     );
   }
